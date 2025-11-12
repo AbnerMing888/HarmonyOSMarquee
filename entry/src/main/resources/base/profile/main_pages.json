@@ -1,0 +1,12 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/VerticalPausePage",
+    "pages/VerticalPauseFixedPage",
+    "pages/HorizontalPausePage",
+    "pages/HorizontalPauseFixedPage",
+    "pages/VerticalContinuousPage",
+    "pages/HorizontalContinuousPage",
+    "pages/TextMarqueePage"
+  ]
+}
