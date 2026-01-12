@@ -43,7 +43,7 @@ ohpm install @abner/marquee
 方式二：在工程模块的oh-package.json5中设置三方包依赖，配置示例如下：
 
 ```
-"dependencies": { "@abner/marquee": "^1.0.0"}
+"dependencies": { "@abner/marquee": "^1.0.1"}
 ```
 
 
@@ -62,17 +62,18 @@ MarqueeView({
 
 **属性介绍**
 
-| 属性                   | 类型                   | 概述                                                |
-|----------------------|----------------------|---------------------------------------------------|
-| marqueeText          | string/Resource      | 跑马灯文本数据                                           |
-| marqueeTextAttribute | MarqueeTextAttribute | 跑马灯文本属性，设置颜色大小等                                   |
-| marqueeStart         | boolean              | 控制跑马灯播放和停止，true播放，false暂停                         |
-| marqueeTextStep      | number               | 滚动动画文本滚动步长。默认值：4.0vp                              |
-| marqueeFromStart     | boolean              | 设置文本从头开始滚动或反向滚动。true表示从头开始滚动，false表示反向滚动。默认值：true |
-| marqueeTextDelay     | number               | 设置每次滚动的时间间隔。默认值：0单位：毫秒                            |
-| marqueeTextLoop      | number               | 设置重复滚动的次数，小于等于零时无限循环。默认值：-1                       |
-| marqueeTextFadeout   | boolean              | 设置文字超长时的渐隐效果。true表示支持渐隐效果，false表示不支持渐隐效果。         |
 
+| 属性                   | 类型                   | 概述                                                                                 |
+|----------------------|----------------------|------------------------------------------------------------------------------------|
+| marqueeText          | string/Resource      | 跑马灯文本数据                                                                            |
+| marqueeTextAttribute | MarqueeTextAttribute | 跑马灯文本属性，设置颜色大小等                                                                    |
+| marqueeStart         | boolean              | Api18及以上支持，控制跑马灯播放和停止，true播放，false暂停                                               |
+| marqueeTextStep      | number               | Api18及以上支持，滚动动画文本滚动步长。默认值：4.0vp                                                    |
+| marqueeFromStart     | boolean              | Api18及以上支持，设置文本从头开始滚动或反向滚动。true表示从头开始滚动，false表示反向滚动。默认值：true                       |
+| marqueeTextDelay     | number               | Api18及以上支持，设置每次滚动的时间间隔。默认值：0单位：毫秒                                                  |
+| marqueeTextLoop      | number               | Api18及以上支持，设置重复滚动的次数，小于等于零时无限循环。默认值：-1                                             |
+| marqueeTextFadeout   | boolean              | Api18及以上支持，设置文字超长时的渐隐效果。true表示支持渐隐效果，false表示不支持渐隐效果。                               |
+| marqueeStartPolicy   | MarqueeStartPolicy   | Api18及以上支持，设置跑马灯启动策略。默认值：MarqueeStartPolicy.DEFAULT：默认持续滚动。ON_FOCUS：获焦以及鼠标悬浮时开始滚动。 |
 
 **MarqueeTextAttribute**
 
