@@ -21,13 +21,13 @@ Api适用版本：**>=12**
 ## 跑马灯效果
 
 <p align="center">
-<img src="https://vipandroid-image.oss-cn-beijing.aliyuncs.com/harmony/marquee/marquee_20251112_001.gif" width="150px" />
-<img src="https://vipandroid-image.oss-cn-beijing.aliyuncs.com/harmony/marquee/marquee_20251112_002.gif" width="150px" />
+<img src="https://vipandroid-image.oss-cn-beijing.aliyuncs.com/harmony/marquee/marquee_20251112_001.gif" width="200px" />
+<img src="https://vipandroid-image.oss-cn-beijing.aliyuncs.com/harmony/marquee/marquee_20251112_002.gif" width="200px" />
 </p>
 
 <p align="center">
-<img src="https://vipandroid-image.oss-cn-beijing.aliyuncs.com/harmony/marquee/marquee_20251112_003.gif" width="150px" />
-<img src="https://vipandroid-image.oss-cn-beijing.aliyuncs.com/harmony/marquee/marquee_20251112_004.gif" width="150px" />
+<img src="https://vipandroid-image.oss-cn-beijing.aliyuncs.com/harmony/marquee/marquee_20251112_003.gif" width="200px" />
+<img src="https://vipandroid-image.oss-cn-beijing.aliyuncs.com/harmony/marquee/marquee_20251112_004.gif" width="200px" />
 </p>
 
 ## 远程依赖
